@@ -49,7 +49,7 @@ export default function App() {
       </NavbarContent>
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <img src="public/logo-snl.png" alt="" width={40} />
+          <img src="./public/logo-snl.png" alt="" width={40} />
           <p className="font-bold text-inherit text-3xl m-4">Alecarp</p>
         </NavbarBrand>
       </NavbarContent>
