@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+import GaleryCards from '../components/Galery-Cards'
+import 'animate.css';
+---
+
+<Layout title="Alecarp">
+	<main>
+		<section id="galeria">
+            <h1 class="mt-8 animate__animated animate__bounceInLeft"><span class="text-gradient">Galeria</span></h1>
+			<div class="cards-container animate__animated animate__rubberBand">
+				<GaleryCards />
+			</div>
+		</section>
+	</main>
+</Layout>
+
+<style>
+	body{
+		overflow-y: auto;
+	}
+	main {
+		padding: 1rem;
+		width: 100%;
+        height: 100%;
+		color: #2b2d42;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	section{
+		width: 100%;
+		height: 100%;
+	}
+	.astro-a {
+		position: absolute;
+		top: -32px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 220px;
+		height: auto;
+		z-index: -1;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+        margin-top: 1em;
+	}
+    .text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	/* Estilos para dispositivos móviles */
+		@media screen and (max-width: 767px) {
+		}
+</style>
