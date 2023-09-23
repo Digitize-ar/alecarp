@@ -21,6 +21,11 @@ const cardData = [
     description: "Revestimiento de escalones con madera",
     imageSrc: "./public/5.jpg",
   },
+  {
+    title:"Placard",
+    description:"Placard Laqueado",
+    imageSrc: "./public/6.jpeg"
+  }
   // Agrega los datos para las otras tres cards aquí
 ];
 
