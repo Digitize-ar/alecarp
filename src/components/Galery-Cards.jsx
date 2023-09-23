@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import {tocador} from "./public/2.jpg";
+import {tocador} from ".././public/2.jpg";
 
 const cardData = [
   {
