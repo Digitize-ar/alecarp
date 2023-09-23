@@ -1,10 +1,11 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
+import {tocador} from "./public/2.jpg";
 
 const cardData = [
   {
     title: "Tocador",
     description: "Realizado con melamina blanca",
-    imageSrc: "./public/2.jpg",
+    imageSrc: tocador,
   },
   {
     title: "Mueble de cocina",
