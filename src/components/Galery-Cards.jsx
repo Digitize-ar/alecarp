@@ -21,11 +21,6 @@ const cardData = [
     description: "Revestimiento de escalones con madera",
     imageSrc: "/5.jpg",
   },
-  {
-    title:"Placard",
-    description:"Placard Laqueado",
-    imageSrc: "/6.jpeg"
-  }
   // Agrega los datos para las otras tres cards aquí
 ];
 
@@ -33,7 +28,7 @@ export default function App() {
   return (
     <div className="flex justify-around items-center flex-col md:flex-row">
       {cardData.map((data, index) => (
-        <Card key={index} className="py-4 w-max mb-5">
+        <Card key={index} className="py-4 w-max mb-5 max-h-fit">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
             <p className="text-tiny uppercase font-bold">{data.title}</p>
             <small className="text-default-500">{data.description}</small>
