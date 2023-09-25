@@ -1,6 +1,6 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_9305b78b.mjs';
+import { manifest } from './manifest_cc887dfa.mjs';
 import 'react';
 import 'react-dom/server';
 import 'cookie';
@@ -14,9 +14,9 @@ import 'mime';
 import 'path-to-regexp';
 
 const _page0  = () => import('./chunks/image-endpoint_a5beb0ab.mjs');
-const _page1  = () => import('./chunks/index_1caaa963.mjs');
-const _page2  = () => import('./chunks/servicios_b3c5af1e.mjs');
-const _page3  = () => import('./chunks/galeria_0a00712b.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/image-endpoint.js", _page0],["src/pages/index.astro", _page1],["src/pages/servicios.astro", _page2],["src/pages/galeria.astro", _page3]]);
+const _page1  = () => import('./chunks/index_b0460ac8.mjs');
+const _page2  = () => import('./chunks/servicios_8ca24e2e.mjs');
+const _page3  = () => import('./chunks/galeria_753ea003.mjs');const pageMap = new Map([["node_modules/astro/dist/assets/image-endpoint.js", _page0],["src/pages/index.astro", _page1],["src/pages/servicios.astro", _page2],["src/pages/galeria.astro", _page3]]);
 const _manifest = Object.assign(manifest, {
 	pageMap,
 	renderers,
