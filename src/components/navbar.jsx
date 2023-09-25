@@ -49,13 +49,13 @@ export default function App() {
       </NavbarContent>
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <img src="./public/logo-snl.png" alt="" width={40} />
+          <img src="/logo-snl.png" alt="" width={40} />
           <p className="font-bold text-inherit text-3xl m-4">Alecarp</p>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarBrand>
-          <img src=".././public/logo-snl.png" alt="" width={45} />
+          <img src="/logo-snl.png" alt="" width={45} />
           <p className="font-bold text-inherit text-3xl m-4">Alecarp</p>
         </NavbarBrand>
         <NavbarItem>

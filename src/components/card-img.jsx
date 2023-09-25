@@ -7,7 +7,7 @@ export default function CardImg() {
       <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
       </CardHeader>
       <CardBody className="overflow-visible py-2">
-        <img src="./public/img-home2.jpg" alt="" className="rounded-lg"/>
+        <img src="/img-home2.jpg" alt="" className="rounded-lg"/>
       </CardBody>
     </Card>
   );

@@ -1,31 +1,30 @@
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
-import {tocador} from ".././public/2.jpg";
 
 const cardData = [
   {
     title: "Tocador",
     description: "Realizado con melamina blanca",
-    imageSrc: tocador,
+    imageSrc: "/2.jpg",
   },
   {
     title: "Mueble de cocina",
     description: "Fabricado con rauvissio brillant",
-    imageSrc: "./public/3.jpg",
+    imageSrc: "/3.jpg",
   },
   {
     title: "Mueble para television",
     description: "Fabricado con rauvissio brillant",
-    imageSrc: "./public/4.jpg",
+    imageSrc: "/4.jpg",
   },
   {
     title: "Escalera",
     description: "Revestimiento de escalones con madera",
-    imageSrc: "./public/5.jpg",
+    imageSrc: "/5.jpg",
   },
   {
     title:"Placard",
     description:"Placard Laqueado",
-    imageSrc: "./public/6.jpeg"
+    imageSrc: "/6.jpeg"
   }
   // Agrega los datos para las otras tres cards aquí
 ];
